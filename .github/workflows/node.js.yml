@@ -43,4 +43,4 @@ jobs:
     - name: Start the app
       run: |
         npm start &
-        npm wait-on --timeout 60000
+        npx wait-on --timeout 60000
